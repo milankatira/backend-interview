@@ -122,14 +122,14 @@ We are looking for:
   
 ### description 
 
-- Added postman collection for all api 
+- Added postman collection for all API 
 - `Service` - 4 API for (CRUD operation)
-- `Order` - 2 API for get all order and add order
-- archive `84.12% test coverage`
-- time take 1.55 hr
+- `Order` - 2 API for getting all orders and adding order
+- archive 84.12% test coverage
+- time takes 1.55 hr
   
-### make sure you have mongod install in local and working fine i also added .env because we donot have any sercet so..
-### for run this project 
+### make sure you have MongoDB installed locally and working fine I also added .env because we don't have any secret so.
+### for running this project 
 ``` bash
 nvm use 
 ```
@@ -139,12 +139,11 @@ yarn
 ```bash
 yarn dev
 ```
-### for run test cases
+### for running test cases
 ``` bash
 yarn test
 ```
-### producton lavel changes
-
+### production level changes
 
 - Take add static string value from constant folder 
 - Take all static status codes from the constant folder 
